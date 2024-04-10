@@ -1,0 +1,39 @@
+site_name: CP-Algorithms
+theme:
+  name: material
+  language: ka
+nav:
+  - მთავარი: 'index.md'
+  - ალგებრა: 'algebra.md'
+  # - 'Issue Tracker': 'https://example.com/'
+
+extra_javascript:
+  - javascript/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+      # tex_inline_wrap: ["$", "$"]
+      tex_block_wrap: ["$$", "$$"]
+  - pymdownx.highlight
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - meta
+  - toc:
+      permalink: true
+
+plugins:
+  - mkdocs-simple-hooks:
+      hooks:
+        on_env: "hooks:on_env"
+  - macros
