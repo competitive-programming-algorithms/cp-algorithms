@@ -113,7 +113,7 @@ int fib(int n) {
 
 $$\begin{pmatrix} 1 & 1 \cr 1 & 0 \cr\end{pmatrix} ^ n = \begin{pmatrix} F_{n+1} & F_{n} \cr F_{n} & F_{n-1} \cr\end{pmatrix}$$
 
-ამგვარად, იმისათვის, რომ ვიპოვოთ $F_n$ $O(log n)$ დროში, ჩვენ უნდა გავზარდოთ მატრიცა n-მდე. (იხ. [ორობითი გაძლიერება](./binary-exp.md))
+ამგვარად, იმისათვის, რომ ვიპოვოთ $F_n$ $O(log n)$ დროში, ჩვენ უნდა გავზარდოთ მატრიცა n-მდე. (იხ. [ორობითი ექსპონენტაცია](./binary-exp.md))
 
 ```{.cpp file=fibonacci_matrix}
 struct matrix {

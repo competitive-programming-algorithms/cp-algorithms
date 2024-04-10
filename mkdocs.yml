@@ -6,7 +6,7 @@ nav:
   - მთავარი: 'index.md'
   - ალგებრა:
     - საფუძვლები:
-      - 'ორობითი სიძლიერე': './algebra/binary-exp.md'
+      - 'ორობითი გაძლიერება': './algebra/binary-exp.md'
       - 'ევკლიდური ალგორითმი უდიდესი საერთო გამყოფის გამოსათვლელად': './algebra/euclid-algorithm.md'
       - 'გაფართოებული ევკლიდეს ალგორითმი': './algebra/extended-euclid-algorithm.md'
       - 'წრფივი დიოფანტინის განტოლებები': './algebra/linear-diophantine-equation.md'
