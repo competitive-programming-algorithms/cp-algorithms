@@ -4,9 +4,13 @@ theme:
   language: ka
 nav:
   - მთავარი: 'index.md'
-  - ალგებრა: 'algebra.md'
-  # - 'Issue Tracker': 'https://example.com/'
-
+  - ალგებრა:
+    - საფუძვლები:
+      - 'ორობითი სიძლიერე': './algebra/binary-exp.md'
+      - 'ევკლიდური ალგორითმი უდიდესი საერთო გამყოფის გამოსათვლელად': './algebra/euclid-algorithm.md'
+      - 'გაფართოებული ევკლიდეს ალგორითმი': './algebra/extended-euclid-algorithm.md'
+      - 'წრფივი დიოფანტინის განტოლებები': './algebra/linear-diophantine-equation.md'
+      - 'ფიბონაჩის რიცხვები': './algebra/fibonacci-numbers.md'
 extra_javascript:
   - javascript/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -32,8 +36,10 @@ markdown_extensions:
   - toc:
       permalink: true
 
-plugins:
-  - mkdocs-simple-hooks:
-      hooks:
-        on_env: "hooks:on_env"
-  - macros
+# plugins:
+#   # - mkdocs-simple-hooks:
+#   #     hooks:
+#   #       on_env: "hooks:on_env"
+#   - literate-nav:
+#     nav_file: navigation.md
+#   - macros
