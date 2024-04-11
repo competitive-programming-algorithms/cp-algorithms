@@ -8,7 +8,7 @@ nav:
     - საფუძვლები:
       - 'ორობითი გაძლიერება': './algebra/binary-exp.md'
       - 'ევკლიდური ალგორითმი უდიდესი საერთო გამყოფის გამოსათვლელად': './algebra/euclid-algorithm.md'
-      - 'გაფართოებული ევკლიდეს ალგორითმი': './algebra/extended-euclid-algorithm.md'
+      - 'გაფართოებული ეუკლიდეს ალგორითმი': './algebra/extended-euclid-algorithm.md'
       - 'წრფივი დიოფანტინის განტოლებები': './algebra/linear-diophantine-equation.md'
       - 'ფიბონაჩის რიცხვები': './algebra/fibonacci-numbers.md'
 extra_javascript:
