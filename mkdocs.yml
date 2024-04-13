@@ -16,6 +16,18 @@ nav:
       - 'წრფივი საცერი': './algebra/prime-sieve-linear.md'
       - 'პირველობის ტესტები': './algebra/primality_tests.md'
       - 'მთელი რიცხვების ფაქტორიზაცია': './algebra/factorization.md'
+    - რიცხვთა თეორიული ფუნქციები:
+      - 'ეილერის ტოტიენტის ფუნქცია': './algebra/phi-function.md'
+      - 'გამყოფთა რაოდენობა / გამყოფთა ჯამი': './algebra/divisors.md'
+  - დინამიური პროგრამირება:
+    - 'დინამიური პროგრამირების შესავალი': './dynamic_programming/intro-to-dp.md'
+    - დინამიური პროგრამირების ოპტიმიზაციები:
+      - 'Divide and Conquer DP': './dynamic_programming/divide-and-conquer-dp.md'
+      - 'კნუტის ოპტიმიზაცია': './dynamic_programming/knuth-optimization.md'
+    - დავალებები: 
+      - 'დინამიური პროგრამირება გატეხილ პროფილზე. პრობლემა "პარკეტი"': './dynamic_programming/profile-dynamics.md'
+      - 'ყველაზე დიდი ნულოვანი ქვემატრიცის პოვნა': './dynamic_programming/zero_matrix'
+
 extra_javascript:
   # - javascript/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
