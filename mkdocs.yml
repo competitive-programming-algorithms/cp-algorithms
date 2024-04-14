@@ -19,6 +19,18 @@ nav:
     - რიცხვთა თეორიული ფუნქციები:
       - 'ეილერის ტოტიენტის ფუნქცია': './algebra/phi-function.md'
       - 'გამყოფთა რაოდენობა / გამყოფთა ჯამი': './algebra/divisors.md'
+  - მონაცემთა სტრუქტურა:
+    - საფუძვლები:
+      - 'მინიმალური დასტა / მინიმალური რიგი': './data_structures/stack_queue_modification.md'
+      - 'იშვიათი მაგიდა': './data_structures/sparse-table.md'
+    - ხეები:
+      - 'განცალკევებული კომპლექტი გაერთიანება (Disjoint Set Union)': './data_structures/disjoint_set_union.md'
+      - 'ფენვიკის ხე': './data_structures/fenwick.md'
+      - 'კვადრატული ფესვის დაშლა': './data_structures/sqrt_decomposition.md'
+      - 'სეგმენტის ხე': './data_structures/segment_tree.md'
+      - 'Treap (დეკარტის ხე)': './data_structures/treap.md'
+    - Მოწინავე:
+      - 'მონაცემთა სტრუქტურიდან წაშლა O(T(n) log n-ში': './data_structures/deleting_in_log_n.md'
   - დინამიური პროგრამირება:
     - 'დინამიური პროგრამირების შესავალი': './dynamic_programming/intro-to-dp.md'
     - დინამიური პროგრამირების ოპტიმიზაციები:
